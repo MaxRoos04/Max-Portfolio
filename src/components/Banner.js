@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/avatar.svg';
+import Image from '../assets/avatar.png';
 import{FaGithub, FaYoutube, FaInstagram} from 'react-icons/fa'
 import {TypeAnimation} from 'react-type-animation'; 
 import {motion} from 'framer-motion'; 
@@ -48,7 +48,7 @@ const Banner = () => {
          </div>
         </div>
 
-        <div>
+        <div style={{width:'50%'}}>
           <img src={Image} alt=''/>
         </div>
       </div>
