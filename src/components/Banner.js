@@ -39,7 +39,7 @@ const Banner = () => {
           <a href='#'>
             <FaYoutube/>
           </a>
-          <a href='#'>
+          <a href='https://github.com/MaxRoos04?tab=overview&from=2023-03-01&to=2023-03-05'>
             <FaGithub/>
           </a>
           <a href='#'>
