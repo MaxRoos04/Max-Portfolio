@@ -1,9 +1,69 @@
 import React from 'react';
+import CountUp from 'react-countup';
+import {useInView} from 'react-intersection-observer'
+import {motion} from 'framer-motion'
+import {fadein} from '../variants'
 
 const About = () => {
-  return(<div className='section' id='about'>
-    About
+  const [ref, inView] = useInView({
+    threshold: 0.5,
+  }); 
+
+  return(
+  
+  <section className='section' id='about' ref={ref}>
+    <div className='conatiner mx-auto'>
+      <div>
+        <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
+        
+        <div className='flex-1'>
+          <h2 className='h2 text-accent' style={{marginTop:'10%'}}>About me.</h2>
+          <h3 className='h3 mb-4'>I'm a student in information and communication technologies at Prakticum, studying my third and last year.</h3>
+          <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor. Etiam ut mattis ipsum.</p>
+        
+          <div className='flex gap-x-6 lg:gap-x-10 mb-12'> 
+           <div>
+            <div className='text-[40px] font-teritary text-gradient'>
+              {
+                inView ? <CountUp start={0}  end={3} duration={2}/> : 
+                null}
+            </div>
+            <div className='font-primary text-sm tracking-[2px]'>Years of <br/>
+            Studying
+            </div>
+          </div>
+          <div>
+            <div className='text-[40px] font-teritary text-gradient'>
+              {
+                inView ? <CountUp start={0}  end={5} duration={2}/> : 
+                null}
+            </div>
+            <div className='font-primary text-sm tracking-[2px]'>Years of <br/>
+            Programing
+            </div>
+          </div>
+          <div>
+            <div className='text-[40px] font-teritary text-gradient'>
+              {
+                inView ? <CountUp start={0}  end={0} duration={0}/> : 
+                null}
+            </div>
+            <div className='font-primary text-sm tracking-[2px]'>Years of <br/>
+            Work eperience
+            </div>
+          </div>
+        </div>
+
+        <div className='flex gap-x-8 items-center'>
+          <button className='btn btn-lg'>Contact me</button>
+          <a href='#' className='text-gradient btn-link'>
+            My portfolio
+          </a>
+        </div>
+       </div>
+      </div>
     </div>
+    </section>
 )};
 
 export default About;
