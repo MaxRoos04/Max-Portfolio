@@ -13,11 +13,11 @@ const About = () => {
   
   <section className='section' id='about' ref={ref}>
     <div className='conatiner mx-auto'>
-      <div>
-        <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
+      <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center'>
+        <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top' style={{marginRight: "10%"}}></div>
         
         <div className='flex-1'>
-          <h2 className='h2 text-accent' style={{marginTop:'10%'}}>About me.</h2>
+          <h2 className='h2 text-accent'>About me.</h2>
           <h3 className='h3 mb-4'>I'm a student in information and communication technologies at Prakticum, studying my third and last year.</h3>
           <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor. Etiam ut mattis ipsum.</p>
         
