@@ -5,27 +5,27 @@ import {fadeIn} from '../variants';
 
 const services = [
   {
-    name: 'U1/UX Design',
+    name: 'UI/UX Design',
     description: 
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor.',
+      'I like designing diffrent websites and applications.',
     link: 'Learn More', 
   },
   {
     name: 'Frontend development',
     description: 
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor.',
+      'HTML, CSS, and JavaScript. Learning REACT.JS and Tailwind CSS.',
     link: 'Learn More', 
   },
   {
     name: 'Learning Backend development',
     description: 
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor.',
+      'I have some basic skills in php and learning rigth now javascript (backend).',
     link: 'Learn More', 
   },
   {
     name: 'Building computers',
     description: 
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor.',
+      '',
     link: 'Learn More', 
   },
 ]
