@@ -16,7 +16,7 @@ const Work = () => {
         viewport={{once: false, amount: 0.3}}
         className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           <div>
-            <h2 className='h2 leading-tight text-accent'>My latest <br/>
+            <h2 className='h2 leading-tight text-accent-white'>My latest <br/>
                 work. 
             </h2>
             <p className='max-w-sm mb-16'>Still pretty new to REACT.JS and UI/UX</p>
