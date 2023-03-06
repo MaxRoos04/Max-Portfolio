@@ -1,6 +1,6 @@
-React.js/tailwind.css
-Portfolio site
-Max Roos
+React.js/tailwind.css <br/>
+Portfolio site<br/>
+Max Roos<br/>
 
 ![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082282170313355344/image.png)
 ![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082282479030898718/image.png)
