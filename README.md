@@ -1,4 +1,4 @@
-My Portfolio site (Not finished!). 
+My Portfolio site Max Roos. 
 
 ![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082281715017457715/image.png)
 ![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1081725547559784569/image.png)
