@@ -1,6 +1,6 @@
 import React from 'react';
 import {BiHomeAlt, BiUser} from 'react-icons/bi'
-import { BiBriefcase, BiCalendarMinus, BiChat} from 'react-icons/bi'
+import {BiBriefcase, BiDesktop, BiChat} from 'react-icons/bi'
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -33,7 +33,7 @@ const Nav = () => {
         smooth={true}
         spy={true} 
         className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-       <BiCalendarMinus/>
+       <BiDesktop/>
       </Link>
       <Link 
         to='work' 

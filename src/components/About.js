@@ -30,7 +30,7 @@ const About = () => {
         className='flex-1'>
           <h2 className='h2 text-accent'>About me.</h2>
           <h3 className='h3 mb-4'>I'm a student in information and communication technologies at Prakticum, studying my third and last year.</h3>
-          <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor. Etiam ut mattis ipsum.</p>
+          <p className='mb-6'>Studying in Helsinki</p>
         
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'> 
            <div>

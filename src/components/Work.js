@@ -19,7 +19,7 @@ const Work = () => {
             <h2 className='h2 leading-tight text-accent'>My latest <br/>
                 work. 
             </h2>
-            <p className='max-w-sm mb-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor. Etiam ut mattis ipsum.</p>
+            <p className='max-w-sm mb-16'>Still pretty new to REACT.JS and UI/UX</p>
             <a href='https://github.com/MaxRoos04'>
             <button className='btn btn-sm'>View all projects</button>
             </a>
