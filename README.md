@@ -1,6 +1,11 @@
-My Portfolio site (Not finished!). 
+React.js/tailwind.css <br/>
+Portfolio site<br/>
+Max Roos<br/>
 
-![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1081568579989811210/image.png)
-![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1081725547559784569/image.png)
-![alt text](https://media.discordapp.net/attachments/746464734664065175/1081725952754712756/image.png?width=1247&height=903)
-![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1081933835723350077/image.png)
+![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082282170313355344/image.png)
+![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082282479030898718/image.png)
+![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082282669381001286/image.png)
+![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082283132553805824/image.png)
+![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082283338590601316/image.png)
+
+Tutorial: https://www.youtube.com/watch?v=Hps-XPN1GeE
