@@ -2,6 +2,7 @@ import React from 'react';
 import {BsArrowUpRight} from 'react-icons/bs';
 import {motion} from 'framer-motion'; 
 import {fadeIn} from '../variants'; 
+import { Link } from 'react-scroll'
 
 const services = [
   {
@@ -43,7 +44,14 @@ const Services = () => {
         className='flex-1 lg:bg-services lg:bg-bottom  bg-no-repeat mix-blend-lighten mb-12 lg:mb-6' style={{marginRight:'10%'}}>
           <h2 className='h2 to-accent mb-6'>What I Do.</h2>
           <h3 className='h3 max-w-[455px] mb-16 '>Im mostly intrested in frontend development and UI/UX design.</h3>
+          <Link 
+            to='work' 
+            activeClass='active'
+            smooth={true}
+            spy={true}
+            offset={-200}>
            <button className='btn btn-sm'>See my work</button>
+         </Link>
         </motion.div>
 
         <motion.div 
@@ -63,10 +71,10 @@ const Services = () => {
                   <p className='font-secondary leading-tight'>{description}</p>
                 </div>
                 <div className='flex flex-col flex-1 items-end'>
-                  <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                  <a href='https://github.com/MaxRoos04' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                     <BsArrowUpRight/>
                   </a>
-                  <a href='#' className='text-gradient text-sm'>{link}</a>
+                  <a href='https://github.com/MaxRoos04' className='text-gradient text-sm'>{link}</a>
                 </div>
               </div>
               );

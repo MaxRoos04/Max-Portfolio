@@ -20,7 +20,9 @@ const Work = () => {
                 work. 
             </h2>
             <p className='max-w-sm mb-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula ut sapien mattis porttitor. Etiam ut mattis ipsum.</p>
+            <a href='https://github.com/MaxRoos04'>
             <button className='btn btn-sm'>View all projects</button>
+            </a>
           </div>
 
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
