@@ -8,4 +8,3 @@ Max Roos<br/>
 ![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082283132553805824/image.png)
 ![alt text](https://cdn.discordapp.com/attachments/746464734664065175/1082283338590601316/image.png)
 
-Tutorial: https://www.youtube.com/watch?v=Hps-XPN1GeE
